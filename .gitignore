@@ -1,0 +1,29 @@
+# Ignorar os arquivos binários de compilação
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.d
+
+# Ignorar pastas e arquivos de configuração do VS Code
+.vscode/
+
+# Ignorar arquivos de dependência de build (exemplo do GCC e Makefile)
+*.d
+
+# Ignorar arquivos temporários do sistema
+*~
+*.swp
+*.bak
+
+# Ignorar pastas e arquivos de build
+/build/
+/bin/
+/obj/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de cache
+.cache/
