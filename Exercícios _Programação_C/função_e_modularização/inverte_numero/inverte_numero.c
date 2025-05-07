@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void inverteNum(int num);
-
-int main()
-{
-    inverteNum(123);
-
-    return 0;
-}
 
 void inverteNum(int num)
 {

@@ -6,26 +6,6 @@ os primos entre dois números dados pelo usuário.
 #include <stdlib.h>
 #include <stdbool.h>
 
-bool ehPrimo(int n);
-void imprimeIntervalo(int n1, int n2);
-
-int main()
-{
-    int numberOne, numberTwo;
-
-    do
-    {
-        printf("Digite o primeiro numero: ");
-        scanf("%d", &numberOne);
-
-        printf("Digite o segundo numero: ");
-        scanf("%d", &numberTwo);
-    } while (numberOne <= 0 || numberTwo <= 0);
-
-    imprimeIntervalo(numberOne, numberTwo);
-
-    return 0;
-}
 
 bool ehPrimo(int n)
 {
