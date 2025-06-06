@@ -10,4 +10,6 @@ int main()
     lerVetor(vet, TAM);
     ordenaVetor(vet, TAM);
     contaDistintos(vet, TAM);
+    
+    return 0;
 }
