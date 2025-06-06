@@ -7,12 +7,7 @@ int main()
 {
     int vet[TAM];
 
-    for (int i = 0; i < TAM; i++)
-    {
-        printf("- ");
-        scanf("%d", &vet[i]);
-    }
-
+    lerVetor(vet, TAM);
     ordenaVetor(vet, TAM);
     contaDistintos(vet, TAM);
 }

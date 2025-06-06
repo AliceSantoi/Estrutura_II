@@ -3,6 +3,14 @@
 #include <stdlib.h>
 #include "frequencia_numeros.h"
 
+void lerVetor(int *vetor, int tamanho)
+{
+    for (int i = 0; i < tamanho; i++)
+    {
+        printf("- ");
+        scanf("%d", &vetor[i]);
+    }
+}
 
 void ordenaVetor(int *vetor, int tamanho)
 {
